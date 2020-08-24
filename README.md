@@ -4,7 +4,8 @@ This is my professional portfolio. It uses AWS and ReactJS.
 
 ## Technologies Used
 
-Git and GitHub
+Git
+AWS CodeBuild (CI/CD)
 SHH
 html
 css
