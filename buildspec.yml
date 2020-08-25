@@ -12,3 +12,4 @@ artifacts:
     - styles/main.css
     - images/*
     - workExample(Python).ipynb
+    - /*
