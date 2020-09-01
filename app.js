@@ -82,3 +82,33 @@ function Hotel(name, rooms){
 
 var hotel1 = new Hotel('Quary',40);
 var hotel2 = new Hotel('Parq', 175);
+
+// Arrays in an object
+var costs = {}
+costs.room1 = [432,23,43];
+costs.room2 = [345,456,567];
+costs.room3 = [456,567,678];
+
+costs.room1[1]; // returns 23
+
+// Objects in an array
+var costs = [
+    {
+        accom: 420,
+        food: 40,
+        phone:0
+    },
+    {
+        accom: 40,
+        food: 41,
+        phone:1
+    },{
+        accom: 4,
+        food: 42,
+        phone:2
+    }
+]
+
+costs[2].food //returns 42
+
+something = 1
