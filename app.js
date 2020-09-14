@@ -112,3 +112,5 @@ var costs = [
 costs[2].food //returns 42
 
 something = 1
+
+somethingElse = 2 //32
