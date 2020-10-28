@@ -1,2 +1,2 @@
 #the question asks to capitalize the first letter in each word, not the first letter occurance in each word. We have to use an ugly looking join(split()) solution instead of the much cleaner .Title() function.
-' '.join(map(str.capitalize, string.split(' ')))
+' '.join(map(str.capitalize, input().split(' ')))

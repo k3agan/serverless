@@ -1,1 +1,1 @@
-print(__import__('numpy').polyval(list(map(float,input().split())),float(input())))
+print(__import__('numpy').polyval(list(input().split()), input()))
